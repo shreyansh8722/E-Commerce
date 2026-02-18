@@ -195,9 +195,9 @@ vercel --prod
 
 | Service  | URL |
 |----------|-----|
-| Frontend | *Coming soon* |
-| Admin    | *Coming soon* |
-| Backend  | *Coming soon* |
+| Frontend | [https://frontend-delta-lac-16.vercel.app](https://frontend-delta-lac-16.vercel.app) |
+| Admin    | [https://admin-azure-nu.vercel.app](https://admin-azure-nu.vercel.app) |
+| Backend  | [https://backend-ruby-eight-69.vercel.app](https://backend-ruby-eight-69.vercel.app) |
 
 ---
 
