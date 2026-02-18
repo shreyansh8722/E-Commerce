@@ -1,5 +1,7 @@
 # 🛒 MERN E-Commerce Website
 
+[![GitHub repo](https://img.shields.io/badge/GitHub-E--Commerce-blue?logo=github)](https://github.com/shreyansh8722/E-Commerce)
+
 Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-commerce application built using the powerful MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.
 
 ## ✨ Features
@@ -54,7 +56,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/MenathNDGD/MERN-Ecommerce.git
+git clone https://github.com/shreyansh8722/E-Commerce.git
+cd E-Commerce
 ```
 
 **Installation**
@@ -143,6 +146,61 @@ npm run dev
 
 Open [http://localhost:5174](http://localhost:5174) in your browser to view the admin dashboard.
 
-Open [http://localhost:400](http://localhost:400) in your browser to run the backend.
+Open [http://localhost:4000](http://localhost:4000) in your browser to run the backend.
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the frontend project.
+
+---
+
+## ☁️ Deployment on Vercel
+
+Each sub-folder (`frontend`, `admin`, `backend`) is deployed as a **separate Vercel project**.
+
+### 1. Deploy the Backend
+
+```bash
+cd backend
+npm install -g vercel   # install Vercel CLI if not already installed
+vercel --prod
+```
+
+- In the Vercel dashboard, add all environment variables from `/backend/.env`.
+- Copy the deployed URL (e.g. `https://your-backend.vercel.app`).
+
+### 2. Deploy the Frontend
+
+```bash
+cd frontend
+vercel --prod
+```
+
+- Set `VITE_BACKEND_URL` to your backend Vercel URL in project settings.
+- Framework preset: **Vite**
+
+### 3. Deploy the Admin Dashboard
+
+```bash
+cd admin
+vercel --prod
+```
+
+- Set `VITE_BACKEND_URL` to your backend Vercel URL in project settings.
+- Framework preset: **Vite**
+
+> **Note:** All three folders already include a `vercel.json` for correct routing. Frontend & Admin use SPA rewrites; Backend uses `@vercel/node` serverless functions.
+
+---
+
+## 🌐 Live Demo
+
+| Service  | URL |
+|----------|-----|
+| Frontend | *Coming soon* |
+| Admin    | *Coming soon* |
+| Backend  | *Coming soon* |
+
+---
+
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).
