@@ -195,9 +195,9 @@ vercel --prod
 
 | Service  | URL |
 |----------|-----|
-| Frontend | [https://frontend-delta-lac-16.vercel.app](https://frontend-delta-lac-16.vercel.app) |
-| Admin    | [https://admin-azure-nu.vercel.app](https://admin-azure-nu.vercel.app) |
-| Backend  | [https://backend-ruby-eight-69.vercel.app](https://backend-ruby-eight-69.vercel.app) |
+| Frontend | [https://ecommerce-frontend-store-mocha.vercel.app](https://ecommerce-frontend-store-mocha.vercel.app) |
+| Admin    | [https://ecommerce-admin-panel-taupe.vercel.app](https://ecommerce-admin-panel-taupe.vercel.app) |
+| Backend  | [https://ecommerce-backend-api-two.vercel.app](https://ecommerce-backend-api-two.vercel.app) |
 
 ---
 
